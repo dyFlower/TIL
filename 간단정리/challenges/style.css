@@ -5,6 +5,7 @@ h2, p{
 
 body {
     background-image: url(/images/bg.png);
+    background-attachment: fixed;
 }
 
 header {
@@ -12,13 +13,18 @@ header {
 }
 
 main {
+    width: 800px;
     height: auto;
+    margin: 0 auto;
+    text-align: center;
 }
+
 
 .section {
     height: fit-content;
-    width: 300px;
+    width: auto;
     margin: 0 auto;
+    display: inline-block;
     }
     
 .animal {
@@ -36,7 +42,8 @@ main {
     width: 260px;
     border-radius: 0px 0px 15px 15px;
     padding: 20px;
-    box-shadow: 0px 15px 0 -5px #402112;
+    border-bottom: solid 8px #402112;;
+    text-align: left;
 }
 
 .information h2 {
