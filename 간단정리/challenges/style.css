@@ -19,7 +19,6 @@ main {
     text-align: center;
 }
 
-
 .section {
     height: fit-content;
     width: auto;
@@ -27,12 +26,8 @@ main {
     display: inline-block;
     }
     
-.animal {
+.animal, .ground {
     display: block;
-}
-
-.ground {
-    display: block
 }
 
 .information {
