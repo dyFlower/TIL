@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+}
+body{
+    background-color:#dddddd;
+}
+.wrapper {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 10% auto;
+    border-radius: 30px;
+    border: 1px solid #aaaaaa;
+    background-color: white;
+}
+ul {
+    margin: 0 auto;
+    border-radius: 0px 0px 27px 27px;
+    padding: 20px;
+    border-top: 3px solid #e1e1e1;
+    background-color: #efefef;
+}
+li {
+    border: 3px solid #aaaaaa;
+    border-radius: 4px;
+    padding: 5px 10px 2px 5px;
+    margin : 8px;
+    background-color: white;
+
+}
+h1 {
+    color: #e6218a;
+    border-left: 7px solid #e6218a;
+    padding-left: 15px;
+    font-size: 21px;
+    margin :10% auto;
+}
+
+/* bg : #dddddd
+top: #ffffff
+bottom : #efefef
+
+#1c8af3
+
